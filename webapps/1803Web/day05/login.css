@@ -1,0 +1,172 @@
+@CHARSET "UTF-8";
+   *{
+      margin: 0;
+      padding: 0;
+      font: 12px "simhei", Arial, Helvetica, sans-serif;
+      color: #666;
+      background-color: #f5f5f5;
+   }
+     header{
+       width: 1000px;
+       height: 52px;
+       border: 1px solid #f5f5f5;
+      }
+
+   #welcomespan{
+       color: #4f4d4e;
+       font-size: 24px;
+       vertical-align: baseline;
+       position: relative;
+        margin-left: 10px;
+       top: -7px;
+       left: 10px;
+       display: inline-block;
+       
+   
+   }
+   #formdiv{
+      width: 100%;
+      box-sizing: border-box;
+      margin: 0px auto;
+      overflow-x: hidden;
+      height: 560px;
+      background-image: url(../images/regist.png);
+      }
+    #from-panel{
+      width: 273px;
+      height: 297px;
+      <!-- rgb前三个都为零为黑色-->;
+      
+      background-color:rgba(0,0,0,0.3);
+      
+      overflow:hidden;
+      float: right;
+      margin: 120px 110px 0 0;
+      padding: 8px;
+      color: white;
+    }
+    #formtitle{
+      font-size: 18px;
+      float: left;
+      color:#fff;
+      background-color: rgba(0,0,0,0);
+    
+    }
+    #from-panel>div>a{
+       font-size: 13px;
+       float: right;
+       color:#fff;
+       text-decoration:none;
+       background-color: rgba(0,0,0,0);
+    }
+    #firstdiv-form{
+     /* 把默认背景白色改成透明色*/
+       background-color:rgba(0,0,0,0);
+       border-bottom: 1px solid white;
+       overflow: hidden;
+       padding-bottom: 6px;
+       padding-top: 8px;
+    }
+    .field{
+       /*为了让图片绝对定位找到依据*/
+       position: relative;
+       margin: 8px 0;
+       background-color: rgba(0,0,0,0);
+    }
+    .field>input{
+    
+       width: 233px;/*273+内边距8*2*/
+       height: 15px;
+       padding: 10px 20px;
+       border: 0px;/*去掉文本框的边框宽度*/
+    }
+    .field>img{
+       position: absolute;
+       right: 10px;
+       top:5px;
+    }
+     #empty{
+     width: 240px;
+    height: 20px;
+    background-color: rgba(0,0,0,0);
+     
+     }
+    .load {
+       font: 12px "simhei", Arial, Helvetica, sans-serif;
+      margin-bottom: 10px;
+      color: #ffffff;
+      background-color: rgba(0,0,0,0);
+      position: relative;
+      padding-top:-100px;
+      border: none;
+     
+
+    }
+      .load>input{   vertical-align: middle;}
+    #forget{
+        font: 12px "simhei", Arial, Helvetica, sans-serif;
+        margin-bottom: 10px;
+        color: #ffffff;
+        background-color: rgba(0,0,0,0);
+        float: right;
+    }
+    
+      
+    #servicediv{
+      height: 82px;
+      width: 1000px;
+      margin: 0 auto;
+      background-color: yellow;
+    
+    }
+   #foot{
+         width: 1000px;
+         height: 238px;
+         background-color: green;
+         margin: 0 auto;
+   }
+   
+   .loader{ 
+    font: 12px "simhei", Arial, Helvetica, sans-seri;
+    width: 276px;
+    height:37px;
+    border-radius:2px
+    color: #fff;
+     padding-top:20px
+    border-radius: 2px;
+    background: -webkit-linear-gradient(top, #27b0f6 0%, #0aa1ed 100%);
+    }
+    .loader>input{    
+                       font: 13.3333px Arial;
+                       color: #ffffff;
+                       background-color: rgba(0,0,0,0);
+                       -webkit-writing-mode: horizontal-tb;
+                        line-height: 35px;
+                        font-weight: bold;
+                        border: none;
+                       position: absolute;
+                      right: 250px;
+                       
+                      
+                  
+                   }
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+    

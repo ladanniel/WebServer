@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+       <style type="text/css">
+         #divd{
+              width: 500px;
+              height: 400px;
+              background-color: yellow;  
+         }
+         .m{
+             width: 100px;
+             height: 100px;
+             background-color: blue;
+             float: left;
+         }
+         .s{width: 100px;
+             height: 100px;
+             background-color: purple;
+             float: left;}
+       </style>
+       <script type="text/javascript">
+               var divx=[];
+             function add(){
+            	 var divx =[document.getElementById("divd"),document.getElementById("divd")];
+            		 	
+            		for(var i=0;i<=10;i++){
+            			if(i%2==0){
+            				divx[i].innerHTML +="<div class = 's'>small</div>";
+            			}
+            			
+            			if(i%2==1){
+            				
+            				divx[i].innerHTML +="<div class = 'm'>small</div>";
+            			}
+            		}
+             }
+       </script>
+</head>
+<body>
+     <input type="button" onclick="add()" value="添加元素">
+     <div id="divd"></div>
+
+</body>
+</html>
